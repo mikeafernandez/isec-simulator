@@ -1,0 +1,12 @@
+{
+    "iron": {
+        "name": "Iron",
+        "id": 0,
+        "density": 7.874,
+        "molar_mass": 55.8473,
+        "melting_point": 1538,
+        "heat_of_fusion": 13800,
+        "specific_heat": 0.44,
+        "t_conductivity": 80.2
+    }
+}
