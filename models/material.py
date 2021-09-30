@@ -9,7 +9,7 @@ class Material(BaseModel):
     melting_point:  float # C
     heat_of_fusion: float # J/mol
     specific_heat:  float # J/g K
-    t_conductivity: float # W/m K
+    t_conductivity: float # W/cm K
 
     def __str__(self): 
         
@@ -21,7 +21,7 @@ class Material(BaseModel):
         Molar Mass: {self.melting_point} (g/mol)
         Heat Of Fusion: {self.heat_of_fusion} (J/mol)
         Specific Heat: {self.specific_heat} (J/g C)
-        Thermal Conductivity: {self.t_conductivity} (W/m k)
+        Thermal Conductivity: {self.t_conductivity} (W/cm k)
         ------------------
         """
         
